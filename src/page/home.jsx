@@ -1,4 +1,4 @@
-
+import Cloudy from "../components/Cloudy";
 import Collaborate from "../components/Collaborate";
 import Connect from "../components/Connect";
 import Footer from "../components/Footer";
@@ -10,12 +10,13 @@ import Work from "../components/Work";
 const Home = () => {
   return (
     <div>
-        <NavBar />
+      <NavBar />
       <Hero />
       <Trusted />
       <Collaborate />
       <Work />
       <Connect />
+      <Cloudy />
       <Footer />
     </div>
   );
