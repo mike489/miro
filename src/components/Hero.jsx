@@ -23,7 +23,7 @@ const Hero = () => {
               required
               className="block w-full rounded-full bg-white px-3 py-2.5 text-base text-gray-900  outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-primary sm:text-sm "
             />
-            <button className="bg-primary p-2 rounded-full w-full bg-[#4262FF] text-white font-normal pl-5 pr-5">
+            <button className="bg-primary p-2 rounded-full w-full text-white font-normal pl-5 pr-5">
               Sign Up free
             </button>
             <h1 className="items-start font-extralight text-sm text-gray-500 mr-20">

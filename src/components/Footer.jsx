@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-import LOGO from "../assets/icon/logo.svg";
+// import LOGO from "../assets/icon/logo.svg";
 
 import loc from "../assets/icon/loc.svg";
 import mail from "../assets/icon/email.svg";
 import call from "../assets/icon/call.svg";
 
-import Facebook from "../assets/icon/facebook-01.svg";
-import Twitter from "../assets/icon/Twitter.svg";
+// import Facebook from "../assets/icon/facebook-01.svg";
+// import Twitter from "../assets/icon/Twitter.svg";
 
-import Linkedin from "../assets/icon/linkedin-01.svg";
+// import Linkedin from "../assets/icon/linkedin-01.svg";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
