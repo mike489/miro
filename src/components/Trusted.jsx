@@ -12,7 +12,7 @@ const images = [
 
 const Trusted = () => {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32 px-[5%]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-xl font-bold text-gray-900 text-center mb-12">
           Trusted by 45M+ users

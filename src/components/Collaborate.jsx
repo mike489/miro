@@ -1,7 +1,7 @@
 import arrow from "../assets/icon/Sign.svg";
 const Collaborate = () => {
   return (
-    <article className="py-16 px-[5%]">
+    <article className="py-16 px-[8%]">
       <div className="text-center mb-12 w-1/2 items-center justify-center mx-auto">
         <h2 className="bg-yellow-400 text-sm text-black inline-block p-1 font-medium ml-96 mb-10 rotate-[20deg]">
           YOUR IDEA STARTS HERE
