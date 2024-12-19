@@ -54,12 +54,15 @@ const NavBar = () => {
         </div>
 
         {/* Sign In Button */}
-        <div className="hidden md:block">
+        <div className="hidden md:block space-x-4">
+          <Link to={"/signIn"} className="   text-[#050038] ">
+            Login
+          </Link>
           <Link
             to={"/signIn"}
-            className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white px-5"
+            className="bg-primary font-light p-2 hover:bg-blue-800 rounded-full text-white px-5"
           >
-            Sign In
+            Sign Up free
           </Link>
         </div>
 
@@ -109,12 +112,17 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to={"/signIn"}
-                className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white text-center"
-              >
-                Sign In
-              </Link>
+              <div className="flex flex-row items-center space-x-4">
+                <Link to={"/signIn"} className="   text-[#050038] ">
+                  Login
+                </Link>
+                <Link
+                  to={"/signIn"}
+                  className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white text-center"
+                >
+                  Sign In
+                </Link>
+              </div>
             </li>
           </ul>
         </div>
