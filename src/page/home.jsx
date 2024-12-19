@@ -1,4 +1,6 @@
+
 import Collaborate from "../components/Collaborate";
+import Connect from "../components/Connect";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavBar from "../components/Navbar";
@@ -13,6 +15,7 @@ const Home = () => {
       <Trusted />
       <Collaborate />
       <Work />
+      <Connect />
       <Footer />
     </div>
   );
