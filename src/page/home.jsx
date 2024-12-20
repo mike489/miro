@@ -5,6 +5,7 @@ import Connect from "../components/Connect";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavBar from "../components/Navbar";
+import Testimonial from "../components/Testimonial";
 import Trusted from "../components/Trusted";
 import Why from "../components/Why";
 import Work from "../components/Work";
@@ -21,6 +22,7 @@ const Home = () => {
       <Cloudy />
       <Built />
       <Why />
+      <Testimonial />
       <Footer />
     </div>
   );
