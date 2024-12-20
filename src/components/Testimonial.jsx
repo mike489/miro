@@ -1,3 +1,5 @@
+// import React from "react";
+
 const Testimonial = () => {
   const testimonials = [
     {
@@ -30,9 +32,9 @@ const Testimonial = () => {
   ];
 
   return (
-    <article className="py-16 px-[8%]">
-      <div className="text-center mb-12 w-1/2 items-center justify-center mx-auto">
-        <h1 className="text-4xl font-bold text-secondary text-center">
+    <article className="py-16 px-4 md:px-8 lg:px-[8%]">
+      <div className="text-center mb-12 mx-auto max-w-2xl">
+        <h1 className="text-3xl md:text-4xl font-bold text-secondary">
           Loved by the world&apos;s best teams
         </h1>
         <button className="border border-primary p-3 rounded-full text-primary font-medium px-8 mt-8">
@@ -40,49 +42,57 @@ const Testimonial = () => {
         </button>
       </div>
 
-      <section className="flex flex-col lg:flex-row items-center justify-center gap-8 mb-12">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="p-6 max-w-sm ">
-            <h1 className="text-xl font-bold text-secondary mb-4">
-              {testimonial.title}
-            </h1>
-            <p className="text-gray-700">{testimonial.description}</p>
-            <div className="flex items-center gap-4 mt-12">
+          <div
+            key={index}
+            className="p-6  flex flex-col justify-between"
+          >
+            <div>
+              <h1 className="text-lg md:text-xl font-bold text-secondary mb-4">
+                {testimonial.title}
+              </h1>
+              <p className="text-gray-700">{testimonial.description}</p>
+            </div>
+            <div className="flex items-center gap-4 mt-6">
               <img
                 src={testimonial.avatar}
                 alt={`${testimonial.name} avatar`}
                 className="w-12 h-12 rounded-full object-cover"
               />
               <div>
-                <h2 className="text-base font-semibold text-gray-900">
+                <h2 className="text-sm md:text-base font-semibold text-gray-900">
                   {testimonial.name}
                 </h2>
-                <p className="text-sm text-gray-500">{testimonial.role}</p>
+                <p className="text-xs md:text-sm text-gray-500">
+                  {testimonial.role}
+                </p>
               </div>
             </div>
           </div>
         ))}
       </section>
+
       <section
-        className="text-white flex flex-col items-center justify-center gap-10 rounded-3xl "
+        className="text-white flex flex-col items-center justify-center gap-6 rounded-3xl p-6 md:p-12"
         style={{
           backgroundColor: "#050038",
-          width: "1,120px",
-          height: "448px",
         }}
       >
-        <div className="flex flex-col items-center gap-5">
-          <h1 className="text-5xl font-bold">Join 45M+ users today</h1>
-          <h1>Start for free — upgrade anytime.</h1>
-          <h1 className="underline">
-            Joining as an organization? Contact Sales
-          </h1>
-        </div>
         <div className="text-center">
-          <button className="bg-primary p-3 rounded-full text-white font-medium px-8">
-            Sign Up free →
-          </button>
+          <h1 className="text-2xl md:text-4xl font-bold">
+            Join 45M+ users today
+          </h1>
+          <p className="text-sm md:text-base">
+            Start for free — upgrade anytime.
+          </p>
+          <p className="text-sm md:text-base underline">
+            Joining as an organization? Contact Sales
+          </p>
         </div>
+        <button className="bg-primary p-3 rounded-full text-white font-medium px-8">
+          Sign Up free →
+        </button>
       </section>
     </article>
   );

@@ -59,7 +59,7 @@ const NavBar = () => {
             Login
           </Link>
           <Link
-            to={"/signIn"}
+            to={"/contact us"}
             className="bg-primary font-light p-2 hover:bg-blue-800 rounded-full text-white px-5"
           >
             Sign Up free
@@ -117,7 +117,7 @@ const NavBar = () => {
                   Login
                 </Link>
                 <Link
-                  to={"/signIn"}
+                  to={"/contact us"}
                   className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white text-center"
                 >
                   Sign In
