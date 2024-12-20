@@ -23,6 +23,7 @@ const Home = () => {
       <Built />
       <Why />
       <Testimonial />
+      
       <Footer />
     </div>
   );

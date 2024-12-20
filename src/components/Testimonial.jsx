@@ -63,6 +63,27 @@ const Testimonial = () => {
           </div>
         ))}
       </section>
+      <section
+        className="text-white flex flex-col items-center justify-center gap-10 rounded-3xl "
+        style={{
+          backgroundColor: "#050038",
+          width: "1,120px",
+          height: "448px",
+        }}
+      >
+        <div className="flex flex-col items-center gap-5">
+          <h1 className="text-5xl font-bold">Join 45M+ users today</h1>
+          <h1>Start for free — upgrade anytime.</h1>
+          <h1 className="underline">
+            Joining as an organization? Contact Sales
+          </h1>
+        </div>
+        <div className="text-center">
+          <button className="bg-primary p-3 rounded-full text-white font-medium px-8">
+            Sign Up free →
+          </button>
+        </div>
+      </section>
     </article>
   );
 };
