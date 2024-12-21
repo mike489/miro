@@ -30,15 +30,20 @@ const Built = () => {
     <article className="bg-white">
       <div className="flex flex-col items-start justify-center px-4 sm:px-6 lg:px-20">
         <h1 className="mt-24 text-secondary font-bold text-xl sm:text-2xl md:text-3xl text-start">
-          Built for all kinds of teams
+          Solutions for Every Team
         </h1>
+        <h2 className="mt-10 w-1/2 text-[#050038B2] font-light  text-start">
+          Whether you’re brainstorming, engineering, managing workshops, or
+          engaging with customers, Yam Consulting Service provides the tools to
+          elevate your team&apos;s performance
+        </h2>
         <div className="w-full flex flex-wrap items-start justify-start mt-8 gap-4 sm:gap-6 lg:gap-10">
           {[
             { name: "Brainstorming", label: "Brainstorming" },
-            { name: "HelpDesk", label: "Diagramming" },
-            { name: "TeamLead", label: "Meetings & Workshops" },
-            { name: "Customer", label: "Customer" },
-            { name: "ScrumEvents", label: "ScrumEvents" },
+            { name: "HelpDesk", label: "Engineering" },
+            { name: "TeamLead", label: "Workshops" },
+            { name: "Customer", label: "Customer Engagement" },
+            // { name: "ScrumEvents", label: "ScrumEvents" },
           ].map((button) => (
             <button
               key={button.name}

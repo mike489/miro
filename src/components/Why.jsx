@@ -13,7 +13,7 @@ const stats = [
 
 const Why = () => {
   return (
-    <div className="bg-[#FFD02F] py-24 sm:py-32">
+    <div className="bg-[#a4b2f9] py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <h2 className="w-1/2 text-[48px] font-bold text-gray-900 text-center justify-center mb-1">

@@ -11,12 +11,12 @@ const Connect = () => {
         />
         <div className="w-[30%] flex flex-col gap-5 pt-5 md:pt-10  font-bold ">
           <h1 className="font-extrabold text-3xl md:text-4xl w-[85%]">
-            Connect your tools, close your tabs
+            Empower Your Systems, Maximize Efficiency
           </h1>
           <p className="max-w-full font-normal text-secondary">
-            Whether you want to edit your Google Docs, resolve Jira issues, or
-            collaborate over Zoom, Miro has 100+ integrations with tools you
-            already use and love.
+            Our solutions integrate effortlessly with your favorite tools,
+            ensuring smooth workflows and optimized productivity. Yam helps you
+            streamline operations without disruption.
           </p>
           <a href="" className="text-primary font-medium underline">
             Learn more

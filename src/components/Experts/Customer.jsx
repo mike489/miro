@@ -6,22 +6,42 @@ const Customer = () => {
     <article className="px-4 md:px-[5%] py-16 text-secondary flex flex-col md:flex-row items-center md:items-start gap-10">
       {/* Text Section */}
       <section className="flex flex-col gap-8 md:w-1/2 font-bold">
-        <h1 className="font-normal text-3xl md:text-4xl w-[85%] uppercase">
-          Customer
+        <h1 className="font-normal text-xl md:text-2xl w-[85%] uppercase">
+          Enhance Client Interactions with Tailored Software
         </h1>
         <p className="font-normal text-[#050038B2]">
-          At the heart of our Complaint Management system lies a commitment to
-          enhancing the overall customer experience and improving operational
-          efficiency. Our goal is to implement a robust support management
-          solution that addresses key service challenges and prioritizes
-          customer satisfaction.
+          Building meaningful relationships with your customers has never been
+          easier. Yam Consulting Service provides customer engagement solutions
+          that help you connect with clients in ways that are personalized,
+          effective, and measurable.
+          <ul>
+            <li className="">
+              <span className="font-semibold">CRM Integration</span>: Manage
+              customer data, track interactions, and automate follow-ups with
+              advanced Customer Relationship Management tools.
+            </li>
+            <li className="">
+              <span className="font-semibold">Omnichannel Communication</span>:
+              Stay connected with your clients across email, chat, social media,
+              and other channels from one centralized platform.
+            </li>
+            <li className="">
+              <span className="font-semibold">Feedback Mechanisms</span>:
+              Collect and analyze participant feedback to improve future
+              workshops.
+            </li>
+            <li className="">
+              <span className="font-semibold">Personalized Experiences</span>:
+              Use data-driven insights to tailor interactions and exceed
+              customer expectations.
+            </li>
+          </ul>
         </p>
         <a href="" className="text-primary font-medium underline">
           Learn more
         </a>
       </section>
 
-      {/* Image Section */}
       <div className="md:w-1/2">
         <img
           src={Heroimg}

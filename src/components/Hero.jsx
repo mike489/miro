@@ -2,40 +2,40 @@ import Heroimg from "../assets/img/headerimage.svg";
 
 const Hero = () => {
   return (
-    <article className="px-4 md:px-[5%] py-20">
+    <article className="px-4 md:px-[5%] py-10 md:py-20">
       <section className="flex flex-col md:flex-row items-center justify-center gap-10">
-        {/* Text Section */}
-        <div className="w-[30%] flex flex-col gap-8 pt-5 md:pt-10  font-bold ">
-          <h1 className="font-extrabold text-3xl md:text-4xl w-[85%]">
-            Take ideas from better to best
+        <div className="flex-grow flex flex-col gap-5 md:gap-8 pt-5 md:pt-10 font-bold max-w-[90%] md:max-w-[40%]">
+          <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl leading-tight">
+            Take Your Business from Vision to Reality
           </h1>
-          <p className="max-w-full font-normal text-secondary">
-            Miro is your team&apos;s visual platform to connect, collaborate,
-            and create — together
+          <p className="font-normal text-secondary text-sm sm:text-base leading-relaxed">
+            Yam Consulting Service is your trusted partner in IT and software
+            solutions. We collaborate, consult, and create innovative software
+            tailored to your business needs.
           </p>
 
-          <div className="w-full flex flex-col items-center gap-5">
+          <div className="flex flex-col items-center gap-4">
             <input
               id="email"
               name="email"
               type="email"
               placeholder="Enter your email"
               required
-              className="block w-full rounded-full bg-white px-3 py-2.5 text-base text-gray-900  outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-primary sm:text-sm "
+              className="block w-full max-w-[90%] md:max-w-full rounded-full bg-white px-3 py-2.5 text-sm sm:text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-primary"
             />
-            <button className="bg-primary p-2 rounded-full w-full text-white font-normal pl-5 pr-5">
+            <button className="bg-primary px-6 py-2 rounded-full w-full max-w-[90%] md:max-w-full text-white font-normal">
               Sign Up free
             </button>
-            <h1 className="items-start font-extralight text-sm text-gray-500 mr-20">
-              Collaborate with your team within minutes
-            </h1>
+            <p className="text-sm text-gray-500">
+              Empowering businesses with seamless IT solutions
+            </p>
           </div>
         </div>
-        {/* Image Section */}
+
         <img
           src={Heroimg}
           alt="Hero image"
-          className="w-full md:w-1/2 max-w-full md:max-w-[550px] object-cover"
+          className="w-full max-w-[90%] md:max-w-[550px] object-contain"
         />
       </section>
     </article>

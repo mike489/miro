@@ -8,12 +8,13 @@ const Work = () => {
         {/* Left Section with Text */}
         <div className="flex w-1/2 flex-col gap-8 pt-5 md:pt-10 font-bold">
           <h1 className="font-extrabold text-3xl md:text-4xl w-[85%]">
-            Work together, wherever you work
+            Work Anytime, Anywhere
           </h1>
           <p className="max-w-full w-2/3 font-normal text-sm text-secondary">
-            In the office, remote, or a mix of the two, with Miro, your team can
-            connect, collaborate, and co-create in one space no matter where you
-            are.
+            In a world of remote and hybrid teams, Yam Consulting Service
+            enables seamless collaboration through our cloud-based, efficient
+            solutions. Transform your workspace with technology that adapts to
+            you.
           </p>
           <a href="" className="text-primary font-medium underline">
             Learn more

@@ -8,11 +8,27 @@ const Admin = () => {
           Brainstorming
         </h1>
         <p className="font-normal text-[#050038B2]">
-          At the heart of our Complaint Management system lies a commitment to
-          enhancing the overall customer experience and improving operational
-          efficiency. Our goal is to implement a robust support management
-          solution that addresses key service challenges and prioritizes
-          customer satisfaction.
+          At Yam Consulting Service, we provide tools that revolutionize
+          brainstorming sessions. Whether you&apos;re in the ideation phase or
+          refining existing concepts, our solutions enable teams to collaborate
+          in real-time, regardless of location
+          <ul>
+            <li className="">
+              <span className="font-semibold">Visual Collaboration</span>: Use
+              digital whiteboards, mind maps, and flowcharts to turn ideas into
+              actionable plans.
+            </li>
+            <li className="">
+              <span className="font-semibold">Team Alignment</span>: Use Keep
+              everyone on the same page with centralized tools for documenting
+              ideas, sharing feedback, and prioritizing tasks.
+            </li>
+            <li className="">
+              <span className="font-semibold">Innovative Templates</span>: Use
+              Access pre-built brainstorming templates to streamline creativity
+              and save time.
+            </li>
+          </ul>
         </p>
         <a href="" className="text-primary font-medium underline">
           Learn more

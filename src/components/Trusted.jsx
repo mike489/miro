@@ -12,19 +12,19 @@ const images = [
 
 const Trusted = () => {
   return (
-    <div className="bg-white py-24 sm:py-32 px-[5%]">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-xl font-bold text-gray-900 text-center mb-12">
-          Trusted by 45M+ users
+    <div className="bg-white py-12 sm:py-24 px-4 sm:px-8 lg:px-[5%]">
+      <div className="mx-auto max-w-7xl">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 text-center mb-8 sm:mb-12">
+          Trusted by Global Leaders
         </h2>
 
-        <div className="grid grid-cols-1 gap-x-5 gap-y-16 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-4 items-center">
           {images.map((image) => (
             <div key={image.id} className="flex justify-center">
               <img
                 src={image.img}
                 alt={`Brand Logo ${image.id}`}
-                className="h-16 w-auto"
+                className="h-12 w-auto sm:h-16"
               />
             </div>
           ))}
