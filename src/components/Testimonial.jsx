@@ -88,7 +88,7 @@ const Testimonial = () => {
             Joining as an organization? Contact Sales
           </p>
         </div>
-        <button className="bg-primary p-3 rounded-full text-white font-medium px-8">
+        <button  className="bg-primary p-3 rounded-full text-white font-medium px-8">
           Call Now →
         </button>
       </section>
