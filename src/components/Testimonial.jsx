@@ -1,5 +1,7 @@
 // import React from "react";
 
+import { Link } from "react-router-dom";
+
 const Testimonial = () => {
   const testimonials = [
     {
@@ -88,9 +90,12 @@ const Testimonial = () => {
             Joining as an organization? Contact Sales
           </p>
         </div>
-        <button  className="bg-primary p-3 rounded-full text-white font-medium px-8">
+        <Link
+          to="tel:9999"
+          className="bg-primary p-3 rounded-full text-white font-medium px-8"
+        >
           Call Now →
-        </button>
+        </Link>
       </section>
     </article>
   );
