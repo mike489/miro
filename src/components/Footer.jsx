@@ -113,7 +113,7 @@ const Footer = () => {
           <div className="flex gap-4 items-start justify-start mt-4 pl-1">
             <img src={mail} alt="email" className="w-6 h-6" />
             <div className="text-sm font-neuwelt-ExtraLight">
-              <p>Lalias@Lalias.com</p>
+              <p>info@yamconsulting.com</p>
             </div>
           </div>
           <div className="flex gap-4 items-start justify-start mt-6 pl-1">
@@ -144,7 +144,7 @@ const Footer = () => {
             <div className="flex gap-4 items-start justify-start mt-4 pl-1">
               <img src={mail} alt="email" className="w-6 h-6" />
               <div className="text-sm font-neuwelt-ExtraLight">
-                <p>Lalias@Lalias.com</p>
+                <p>info@yamconsulting.com</p>
               </div>
             </div>
             <div className="flex gap-4 items-start justify-start mt-6 pl-1">
@@ -162,8 +162,8 @@ const Footer = () => {
         </section>
       </article>
 
-      <p className="font-neuwelt-light w-full text-[16px] text-center capitalize pt-12 border-t">
-        Powered by TEACH @ {currentYear}
+      <p className="w-full text-[16px] text-center capitalize pt-12 border-t">
+        Powered by Yam Consulting @ {currentYear}
       </p>
     </article>
   );
