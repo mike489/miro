@@ -55,14 +55,11 @@ const NavBar = () => {
 
         {/* Sign In Button */}
         <div className="hidden md:block space-x-4">
-          <Link to={"/signIn"} className="   text-[#050038] ">
-            Login
-          </Link>
           <Link
             to={"/contact us"}
             className="bg-primary font-light p-2 hover:bg-blue-800 rounded-full text-white px-5"
           >
-            Sign Up free
+            Contact Us
           </Link>
         </div>
 
