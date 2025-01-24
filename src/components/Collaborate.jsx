@@ -1,4 +1,4 @@
-import arrow from "../assets/icon/Sign.svg";
+import { Link } from "react-router-dom";
 
 const Collaborate = () => {
   return (
@@ -44,9 +44,12 @@ const Collaborate = () => {
       </section>
 
       <div className="text-center">
-        <button className="bg-primary p-3 sm:p-4 rounded-full text-white font-medium">
-          <img src={arrow} alt="arrow" />
-        </button>
+        <Link
+          to={"/contact us"}
+          className="bg-primary font-light p-2 hover:bg-blue-800 rounded-full text-white px-5"
+        >
+          Contact Us
+        </Link>
       </div>
     </article>
   );

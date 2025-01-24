@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Heroimg from "../assets/img/headerimage.svg";
 
 const Hero = () => {
@@ -14,18 +15,21 @@ const Hero = () => {
             tailored to your business needs.
           </p>
 
-          <div className="flex flex-col items-center gap-4">
-            <input
+          <div className="flex flex-col items-center gap-4 ">
+            {/* <input
               id="email"
               name="email"
               type="email"
               placeholder="Enter your email"
               required
               className="block w-full max-w-[90%] md:max-w-full rounded-full bg-white px-3 py-2.5 text-sm sm:text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-primary"
-            />
-            <button className="bg-primary px-6 py-2 rounded-full w-full max-w-[90%] md:max-w-full text-white font-normal">
-              Sign Up free
-            </button>
+            /> */}
+            <Link
+              to={"/contact us"}
+              className="bg-primary text-center px-6 py-2 rounded-full w-full max-w-[90%] md:max-w-full text-white font-normal"
+            >
+              Contact Us
+            </Link>
             <p className="text-sm text-gray-500">
               Empowering businesses with seamless IT solutions
             </p>

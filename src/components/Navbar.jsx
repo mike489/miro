@@ -117,7 +117,7 @@ const NavBar = () => {
                   to={"/contact us"}
                   className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white text-center"
                 >
-                  Sign In
+                  contact us
                 </Link>
               </div>
             </li>
