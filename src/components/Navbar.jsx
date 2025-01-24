@@ -79,7 +79,7 @@ const NavBar = () => {
           <ul className="flex flex-col space-y-4">
             <li>
               <a
-                href="#"
+                href="#AboutUs"
                 className="block text-secondary font-semibold hover:text-primary"
               >
                 About Us
@@ -87,15 +87,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#feature"
-                className="block text-secondary font-semibold hover:text-primary"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#feature"
+                href="#Features"
                 className="block text-secondary font-semibold hover:text-primary"
               >
                 Features
@@ -103,7 +95,15 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#feature"
+                href="#Services"
+                className="block text-secondary font-semibold hover:text-primary"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Clients"
                 className="block text-secondary font-semibold hover:text-primary"
               >
                 Clients
@@ -112,9 +112,6 @@ const NavBar = () => {
 
             <li>
               <div className="flex flex-row items-center space-x-4">
-                <Link to={"/signIn"} className="   text-[#050038] ">
-                  Login
-                </Link>
                 <Link
                   to={"/contact us"}
                   className="bg-primary p-2 hover:bg-blue-800 rounded-full text-white text-center"
