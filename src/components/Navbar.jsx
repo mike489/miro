@@ -20,15 +20,15 @@ const NavBar = () => {
           <ul className="hidden md:flex space-x-8">
             <li>
               <a
-                href="#"
+                href="#AboutUs"
                 className="text-secondary font-semibold hover:text-primary"
               >
-                Overview
+                About Us
               </a>
             </li>
             <li>
               <a
-                href="#feature"
+                href="#Features"
                 className="text-secondary font-semibold hover:text-primary"
               >
                 Features
@@ -36,19 +36,20 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#Faq"
+                href="#Services"
                 className="text-secondary font-semibold hover:text-primary"
               >
-                FAQ
+                Services
               </a>
             </li>
+
             <li>
-              <Link
-                to={"/KnowledgeBase"}
+              <a
+                href="#Clients"
                 className="text-secondary font-semibold hover:text-primary"
               >
-                Knowledge Base
-              </Link>
+                Clients
+              </a>
             </li>
           </ul>
         </div>
@@ -81,7 +82,15 @@ const NavBar = () => {
                 href="#"
                 className="block text-secondary font-semibold hover:text-primary"
               >
-                Overview
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#feature"
+                className="block text-secondary font-semibold hover:text-primary"
+              >
+                Services
               </a>
             </li>
             <li>
@@ -94,20 +103,13 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#Faq"
+                href="#feature"
                 className="block text-secondary font-semibold hover:text-primary"
               >
-                FAQ
+                Clients
               </a>
             </li>
-            <li>
-              <Link
-                to={"/KnowledgeBase"}
-                className="block text-secondary font-semibold hover:text-primary"
-              >
-                Knowledge Base
-              </Link>
-            </li>
+
             <li>
               <div className="flex flex-row items-center space-x-4">
                 <Link to={"/signIn"} className="   text-[#050038] ">

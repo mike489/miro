@@ -34,7 +34,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <article className="py-16 px-4 md:px-8 lg:px-[8%]">
+    <article id="Clients" className="py-16 px-4 md:px-8 lg:px-[8%]">
       <div className="text-center mb-12 mx-auto max-w-2xl">
         <h1 className="text-3xl md:text-4xl font-bold text-secondary">
           Loved by Businesses Worldwide

@@ -26,7 +26,7 @@ const Built = () => {
   };
 
   return (
-    <article className="bg-white">
+    <article id="Features" className="bg-white">
       <div className="flex flex-col items-start justify-center px-4 sm:px-6 lg:px-20">
         <h1 className="mt-24 text-secondary font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-start">
           Solutions for Every Team

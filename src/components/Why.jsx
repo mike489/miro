@@ -21,7 +21,7 @@ const stats = [
 
 const Why = () => {
   return (
-    <div className="bg-[#a4b2f9] py-16 sm:py-24 md:py-32">
+    <div id="Services" className="bg-[#a4b2f9] py-16 sm:py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center mb-12">
           <h2 className="w-full text-2xl sm:text-3xl md:text-4xl lg:text-[48px] font-bold text-gray-900 mb-10">
